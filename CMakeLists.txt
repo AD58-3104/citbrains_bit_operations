@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+project(citbrains_bit_operations)
+
+add_library(citbrains_bit_operations INTERFACE crc16.hpp convert_bytes.hpp)
+target_include_directories(citbrains_bit_operations INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(citbrains_bit_operations INTERFACE cxx_std_20)
