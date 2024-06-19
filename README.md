@@ -1,2 +1,2 @@
 # citbrains_bit_operations
-Bit operation libraries for citbrains
+Header only bit operation library for citbrains.
